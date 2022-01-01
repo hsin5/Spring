@@ -97,6 +97,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11AE483D277FEFB1009D8A63 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1A4FDA2A1A6E44270099D309 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		1A4FDA2B1A6E44270099D309 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		1A4FDA331A6E44780099D309 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,6 +252,7 @@
 		964117321A5BE90A000E3A5A = {
 			isa = PBXGroup;
 			children = (
+				11AE483D277FEFB1009D8A63 /* Package.swift */,
 				9641173D1A5BE90A000E3A5A /* SpringApp */,
 				964117531A5BE90A000E3A5A /* SpringAppTests */,
 				1A4FDA341A6E44780099D309 /* Spring */,
