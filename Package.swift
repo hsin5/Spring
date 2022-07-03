@@ -9,9 +9,5 @@ let package = Package(
         .target(
             name: "Spring",
             path: "Spring"),
-        .testTarget(
-            name: "SpringTests",
-            path: "SpringTests",
-            dependencies: ["Spring"]),
     ]
 )
