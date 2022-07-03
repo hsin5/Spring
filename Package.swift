@@ -8,6 +8,6 @@ let package = Package(
     targets: [
         .target(
             name: "Spring",
-            path: "Spring"),
+            path: "./"),
     ]
 )
