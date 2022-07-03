@@ -6,8 +6,6 @@ import PackageDescription
 let package = Package(
     name: "Spring",
     targets: [
-        .target(
-            name: "Spring",
-            path: "./"),
+        .target(name: "Spring"),
     ]
 )
