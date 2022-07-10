@@ -22,7 +22,7 @@
 
 import UIKit
 
-@IBDesignable public class DesignableLabel: SpringLabel {
+@IBDesignable open class DesignableLabel: SpringLabel {
 
     @IBInspectable public var lineHeight: CGFloat = 1.5 {
         didSet {
