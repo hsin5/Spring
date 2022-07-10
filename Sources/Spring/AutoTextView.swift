@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AutoTextView: UITextView {
+open class AutoTextView: UITextView {
 
     public override var intrinsicContentSize: CGSize {
         get {

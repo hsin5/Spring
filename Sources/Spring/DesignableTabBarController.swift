@@ -22,7 +22,7 @@
 
 import UIKit
 
-@IBDesignable class DesignableTabBarController: UITabBarController {
+@IBDesignable open class DesignableTabBarController: UITabBarController {
     
     @IBInspectable var normalTint: UIColor = UIColor.clear {
         didSet {
@@ -89,7 +89,7 @@ import UIKit
         }
     }
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         if let items = self.tabBar.items {
             for item in items {

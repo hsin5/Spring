@@ -22,7 +22,7 @@
 
 import UIKit
 
-@IBDesignable public class DesignableTextField: SpringTextField {
+@IBDesignable open class DesignableTextField: SpringTextField {
     
     @IBInspectable public var placeholderColor: UIColor = UIColor.clear {
         didSet {

@@ -22,7 +22,7 @@
 
 import UIKit
 
-@IBDesignable public class DesignableView: SpringView {
+@IBDesignable open class DesignableView: SpringView {
     
     @IBInspectable public var borderColor: UIColor = UIColor.clear {
         didSet {

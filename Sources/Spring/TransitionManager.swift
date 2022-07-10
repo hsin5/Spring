@@ -22,7 +22,7 @@
 
 import UIKit
 
-public class TransitionManager: NSObject, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
+open class TransitionManager: NSObject, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
     
     var isPresenting = true
     var duration = 0.3

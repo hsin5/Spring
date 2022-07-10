@@ -22,7 +22,7 @@
 
 import UIKit
 
-@IBDesignable public class DesignableTextView: SpringTextView {
+@IBDesignable open class DesignableTextView: SpringTextView {
     
     @IBInspectable public var borderColor: UIColor = UIColor.clear {
         didSet {

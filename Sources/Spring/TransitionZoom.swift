@@ -22,7 +22,7 @@
 
 import UIKit
 
-public class TransitionZoom: NSObject, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
+open class TransitionZoom: NSObject, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
     
     var isPresenting = true
     var duration = 0.4

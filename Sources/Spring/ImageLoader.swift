@@ -24,7 +24,7 @@ import UIKit
 import Foundation
 
 
-public class ImageLoader {
+open class ImageLoader {
     
     var cache = NSCache<NSString, NSData>()
     

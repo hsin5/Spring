@@ -52,7 +52,7 @@ import UIKit
     func animateToNext(completion: @escaping () -> ())
 }
 
-public class Spring : NSObject {
+open class Spring : NSObject {
     
     private unowned var view : Springable
     private var shouldAnimateAfterActive = false

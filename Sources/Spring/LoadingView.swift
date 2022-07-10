@@ -24,7 +24,7 @@ import UIKit
 
 #if !os(tvOS)
 @available(tvOS, unavailable)
-public class LoadingView: UIView {
+open class LoadingView: UIView {
 
     @IBOutlet public weak var indicatorView: SpringView!
 
